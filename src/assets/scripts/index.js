@@ -18,7 +18,9 @@ let modified = false;
 let modifiedPlayerobject;
 let formationCheck = 0;
 //fetch data
-fetch("/DataBase/players.json")
+fetch(
+  "http://localhost/FUT-Champions-Web-App-Squad-Builder-Part-Backend/DataBase/players.json"
+)
   .then((response) => response.json())
   .then((data) => {
     allPlayers = data.players;
@@ -728,18 +730,6 @@ function modifiedPlayer(id, places) {
   });
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 // const player1 = {
 //   name: "Messi",
 //   position: "RW",
@@ -772,7 +762,7 @@ function modifiedPlayer(id, places) {
 //   adjacentPlayers.forEach((el) => {
 //     if (el.club === player.club) {
 //       score += 3;
-//     } 
+//     }
 //      if (el.league === player.league) {
 //       score += 10;
 //     }

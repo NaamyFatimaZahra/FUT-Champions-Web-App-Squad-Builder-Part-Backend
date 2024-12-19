@@ -1,34 +1,4 @@
 {
-  "form": [
-    {
-      "other": {
-        "position": "",
-        "nationality": "",
-        "club": "",
-        "rating": "",
-        "pace": "",
-        "shooting": "",
-        "passing": "",
-        "dribbling": "",
-        "defending": "",
-        "physical": ""
-      }
-    },
-    {
-      "GK": {
-        "position": "",
-        "nationality": "",
-        "club": "",
-        "rating": "",
-        "diving": "",
-        "handling": "",
-        "kicking": "",
-        "reflexes": "",
-        "speed": "",
-        "positioning": ""
-      }
-    }
-  ],
   "formations": {
     "4-3-3": [
       {
